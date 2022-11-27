@@ -164,7 +164,7 @@ class ChartAxisXLayerDefault: ChartAxisLayerDefault {
                 let y = self.offset + offset + rowY
                 
                 let labelSize = label.textSizeNonRotated
-                let labelX = x - (labelSize.width / 2)
+                let labelX = x
                 
                 let labelDrawer = ChartLabelDrawer(label: label, screenLoc: CGPoint(x: labelX, y: y))
                 labelDrawer.hidden = label.hidden

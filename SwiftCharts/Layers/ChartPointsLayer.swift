@@ -36,7 +36,7 @@ public struct TappedChartPointLayerModel<T: ChartPoint> {
     public let model: ChartPointLayerModel<T>
     public let distance: CGFloat
     
-    init(model: ChartPointLayerModel<T>, distance: CGFloat) {
+    public init(model: ChartPointLayerModel<T>, distance: CGFloat) {
         self.model = model
         self.distance = distance
     }
@@ -47,7 +47,7 @@ public struct TappedChartPointLayerModels<T: ChartPoint> {
     public let models: [TappedChartPointLayerModel<T>]
     public let layer: ChartPointsLayer<T>
     
-    init(models: [TappedChartPointLayerModel<T>], layer: ChartPointsLayer<T>) {
+    public init(models: [TappedChartPointLayerModel<T>], layer: ChartPointsLayer<T>) {
         self.models = models
         self.layer = layer
     }

@@ -51,7 +51,7 @@ public struct ChartBarViewSettings {
 
 open class ChartPointViewBar: UIView {
     
-    let targetFrame: CGRect
+    public let targetFrame: CGRect
 
     var isSelected: Bool = false
     
